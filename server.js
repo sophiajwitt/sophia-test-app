@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 
 // Middleware
 app.use(express.static('public'));
@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Porter App</title>
+        <title>My Test App</title>
         <style>
             body {
                 font-family: Arial, sans-serif;
@@ -53,7 +53,7 @@ app.get('/', (req, res) => {
     </head>
     <body>
         <div class="container">
-            <h1>🚀 Sophia Test App!</h1>
+            <h1>Sophia Test App</h1>
             <p>Your web app is running successfully</p>
             
             <h3>Quick Test</h3>
